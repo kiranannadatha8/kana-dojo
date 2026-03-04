@@ -123,20 +123,4 @@ jobs:
               assignees: [commenter]
             });
 
-            const msg = t.assigned;
-            const nextSteps = msg.nextSteps.items.map(function(item, i) {
-              return `${i + 1}. ${fillTemplate(item, { commenter, issueNumber: issue.number, repoUrl })}`;
-            }).join('\n');
-
-            const resources = msg.resources.items.map(function(item) {
-              return '- ' + fillTemplate(item, { commenter, issueNumber: issue.number, repoUrl });
-            }).join('\n');
-
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: issue.number,
-              body: `${fillTemplate(msg.greeting, { commenter, issueNumber: issue.number, repoUrl })}\n\n${fillTemplate(msg.body, { commenter, issueNumber: issue.number, repoUrl })}\n\n${fillTemplate(msg.nextSteps.title, { commenter, issueNumber: issue.number, repoUrl })}\n${nextSteps}\n\n${fillTemplate(msg.resources.title, { commenter, issueNumber: issue.number, repoUrl })}\n${resources}\n\n${fillTemplate(msg.footer, { commenter, issueNumber: issue.number, repoUrl })}\n\n${fillTemplate(msg.encouragement, { commenter, issueNumber: issue.number, repoUrl })}`
-            });
-
-            console.log(`Assigned issue #${issue.number} to @${commenter}`);
+            console.log(`Assigned issue #${issue.number} to @${commenter} — assignment reply will be posted by the issues:assigned event.`);
