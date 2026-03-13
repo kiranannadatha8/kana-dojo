@@ -375,7 +375,7 @@
     "meaning": "Feel indebted or unable to oppose someone. (Set 3)",
     "id": 42,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "腰が重い",
@@ -384,7 +384,7 @@
     "meaning": "Slow to start doing something. (Set 3)",
     "id": 43,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "顔が広い",
@@ -393,7 +393,7 @@
     "meaning": "Have many connections. (Set 3)",
     "id": 44,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "口が堅い",
@@ -420,7 +420,7 @@
     "meaning": "Get angry. (Set 3)",
     "id": 47,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "手を抜く",
@@ -429,7 +429,7 @@
     "meaning": "Do less than one should. (Set 3)",
     "id": 48,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "目がない",
@@ -437,7 +437,7 @@
     "english": "No eyes",
     "meaning": "Have a weakness for something. (Set 3)",
     "id": 49,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
