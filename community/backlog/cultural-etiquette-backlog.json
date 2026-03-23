@@ -942,7 +942,7 @@
     "note": "店でも家庭でも使える。",
     "id": 105,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "situation": "箸の作法 6",
@@ -977,7 +977,7 @@
     "dont": "話を遮る",
     "note": "合意形成を重視する文化。",
     "id": 109,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
