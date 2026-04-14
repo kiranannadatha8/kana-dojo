@@ -578,8 +578,10 @@
   {
     "id": 97,
     "text": "\"〜つもり\" expresses intent, like \"I plan to\" do something. (practice variation 12)",
-    "issued": true,
-    "completed": false
+    "issued": false,
+    "completed": false,
+    "completedBy": "yPin9",
+    "completedPR": 13165
   },
   {
     "id": 98,
